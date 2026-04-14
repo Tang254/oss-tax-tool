@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local outputs
+*.log
+*_results_*.csv
+results.csv
+
+# Real business data
+*.csv
+!sample_data/
+!sample_data/README.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
